@@ -34,6 +34,7 @@ public class Ventana {
         
         p.setLayout(gridBagLayout);
         f.setSize(400, 350);
+        f.setLocationRelativeTo(null);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         btnIniciar = c.getButton("Iniciar");
@@ -50,6 +51,7 @@ public class Ventana {
         
         btnMostrar = c.getButton("Mostrar");
         btnMostrar.addActionListener(new EventosVentana());
+        btnMostrar.setEnabled(false);
         // btnMostrar.setEnabled(false);
         
         restricciones.fill = GridBagConstraints.HORIZONTAL;

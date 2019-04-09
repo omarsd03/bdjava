@@ -39,6 +39,7 @@ public class Iniciar {
         
         p.setLayout(gridBagLayout);
         f.setSize(400, 350);
+        f.setLocation(80, 190);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         lblHost = c.getLabel("Host");

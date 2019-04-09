@@ -43,6 +43,7 @@ public class Mostrar {
         
         p.setLayout(gridBagLayout);
         f.setSize(400, 350);
+        f.setLocation(900, 190);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         lblNoControl = c.getLabel("No. Control");
@@ -68,7 +69,7 @@ public class Mostrar {
         p.add(txtNoControl);
         
         btnBuscar = c.getButton("Buscar");
-        btnBuscar.addActionListener(new EventosIniciar());
+        btnBuscar.addActionListener(new EventosMostrar());
         
         restricciones.fill = GridBagConstraints.HORIZONTAL;
         restricciones.weightx = 0.0;

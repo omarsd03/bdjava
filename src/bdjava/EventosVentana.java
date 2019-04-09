@@ -21,15 +21,11 @@ public class EventosVentana implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         
         if (e.getSource().equals(btnIniciar)) {
-            
             new Iniciar();
-            
         }
         
         if (e.getSource().equals(btnMostrar)) {
-            
             new Mostrar();
-            
         }
         
     }
